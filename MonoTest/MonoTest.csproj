@@ -40,11 +40,15 @@
     <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <SpecificVersion>False</SpecificVersion>
+      <HintPath>msdll\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <SpecificVersion>False</SpecificVersion>
+      <HintPath>msdll\System.Web.WebPages.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Helpers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Web.Helpers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" >
+      <HintPath>msdll\System.Web.Helpers</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Xml.Linq" />
